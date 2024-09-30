@@ -1,0 +1,42 @@
+[
+    {
+        "person": 1,
+        "img": "/tickets/1person.png"
+    },
+    {
+        "person": 2,
+        "img": "/tickets/2person.png"
+    },
+    {
+        "person": 3,
+        "img": "/tickets/3person.png"
+    },
+    {
+        "person": 4,
+        "img": "/tickets/4person.png"
+    },
+    {
+        "person": 5,
+        "img": "/tickets/5person.png"
+    },
+    {
+        "person": 6,
+        "img": "/tickets/6person.png"
+    },
+    {
+        "person": 7,
+        "img": "/tickets/6person.png"
+    },
+    {
+        "person": 8,
+        "img": "/tickets/6person.png"
+    },
+    {
+        "person": 9,
+        "img": "/tickets/8person.png"
+    },
+    {
+        "person": 10,
+        "img": "/tickets/8person.png"
+    }
+]

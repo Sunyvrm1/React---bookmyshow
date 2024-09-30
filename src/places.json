@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Cinepolis: DLF Avenue, Saket",
+    "time": ["11:00 AM", "05:00 PM", "10:30 PM"]
+  },
+  {
+    "name": "PVR: Ambience, Gurgaon",
+    "time": ["10:15 AM", "12:00 PM", "06:20 PM", "09:30 PM", "10:55 PM"]
+  },
+  {
+    "name": "PVR Promenade: Vasant Kunj",
+    "time": ["12:35 PM", "02:50 PM", "11:20 PM"]
+  },
+  {
+    "name": "PVR: Select City Walk, Delhi",
+    "time": ["09:50 AM", "04:10 PM", "10:30 PM"]
+  },
+  {
+    "name": "INOX: World Mark, Gurugram",
+    "time": ["11:05 AM", "03:00 PM", "08:10 PM", "09:40 PM", "11:20 PM"]
+  },
+  {
+    "name": "PVR: Vegas Dwarka",
+    "time": ["09:30 PM"]
+  },
+  {
+    "name": "INOX: Odeon, Connaught Place",
+    "time": ["10:20 AM", "02:50 PM", "04:50 PM"]
+  },
+  {
+    "name": "PVR: ECX Chanakyapuri, Delhi",
+    "time": ["10:25 AM", "5:30 PM"]
+  },
+  {
+    "name": "PVR: Plaza-CP, Delhi",
+    "time": ["10:30 AM", "1:40 PM", "5:30 PM", "11:20 PM"]
+  },
+  {
+    "name": "PVR: Select City Walk, Delhi",
+    "time": ["10:30 AM", "1:30 PM", "5:45 PM"]
+  }
+]
