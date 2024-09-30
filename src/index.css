@@ -784,7 +784,7 @@ h3 {
   background-color: var(--red);
   color: #fff !important;
 }
-.ticketPersonBtn{
+.ticketPersonBtn {
   padding: 5px 10px;
   color: #666;
   border: 1px solid var(--lightDark);
@@ -795,24 +795,24 @@ h3 {
   cursor: pointer;
   background-color: var(--white);
 }
-.ticketPersonBtn i{
+.ticketPersonBtn i {
   font-size: 12px;
   color: #333;
 }
-.hideTicketOverlay{
+.hideTicketOverlay {
   display: none;
 }
-.ticketSecondRow{
+.ticketSecondRow {
   padding: 40px 0;
   background-color: #fafafa;
   border-top: 1px solid var(--offwhite4);
 }
-.gridContainer{
+.gridContainer {
   display: grid;
   grid-template-columns: repeat(10, 30px);
   gap: 8px;
 }
-.gridItem{
+.gridItem {
   background-color: var(--white);
   border: 1px solid var(--green);
   height: 30px;
@@ -824,45 +824,47 @@ h3 {
   cursor: pointer;
   color: var(--green);
 }
-.gridItem:hover, .activeSeatSelected{
+.gridItem:hover,
+.activeSeatSelected {
   background-color: var(--green) !important;
   color: var(--white) !important;
 }
-.seatCont{
+.seatCont {
   display: grid;
   place-items: center;
 }
-#goldContainer p, #silverContainer p{
+#goldContainer p,
+#silverContainer p {
   color: var(--offwhite5);
   font-size: 14px;
   border-bottom: 1px solid #ececec;
   margin-bottom: 7px;
   padding-bottom: 10px;
 }
-#silverContainer{
+#silverContainer {
   margin-top: 20px;
 }
-.screenCont{
+.screenCont {
   margin-top: 40px;
 }
-.screenCont p{
+.screenCont p {
   font-size: 12px;
   text-align: center;
   margin-top: 10px;
 }
-.ticketBookingCont{
+.ticketBookingCont {
   position: fixed;
   width: 100%;
   height: 60px;
   bottom: 0;
   left: 0;
   background-color: #fff;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.ticketBookingCont button{
+.ticketBookingCont button {
   height: 40px;
   background-color: var(--red);
   width: 400px;
@@ -872,10 +874,10 @@ h3 {
   font-size: 16px;
   cursor: pointer;
 }
-.hiddenTicketBookingBtn{
+.hiddenTicketBookingBtn {
   display: none;
 }
-.checkoutCont{
+.checkoutCont {
   position: fixed;
   height: 100vh;
   width: 350px;
@@ -883,63 +885,62 @@ h3 {
   top: 0;
   right: 0;
   padding: 20px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.checkOut{
-  
+.checkOut {
 }
-.checkoutCont i{
+.checkoutCont i {
   cursor: pointer;
   color: var(--lightDarkOpac);
 }
 html {
   scrollbar-width: thin;
 }
-.hideSideBar{
+.hideSideBar {
   display: none;
 }
-.firstRowHC{
+.firstRowHC {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.firstRowHC p{
+.firstRowHC p {
   color: var(--red);
 }
-.secondRowHC{
+.secondRowHC {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
   gap: 40px;
 }
-.secondRowHC p{
+.secondRowHC p {
   font-size: 14px;
 }
-.checkoutPrice{
+.checkoutPrice {
   white-space: noWrap;
 }
-.thirdRowHC{
+.thirdRowHC {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
 }
-.thirdRowHC p{
+.thirdRowHC p {
   font-size: 14px;
 }
-.forthRowHC{
+.forthRowHC {
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
   border-top: 1px solid var(--offwhite3);
   padding-top: 10px;
 }
-.forthRowHC p{
+.forthRowHC p {
   font-size: 16px;
 }
-.checkoutCont button{
+.checkoutCont button {
   height: 40px;
   background-color: var(--red);
   border: none;
@@ -948,12 +949,139 @@ html {
   font-size: 16px;
   cursor: pointer;
 }
-.thankCont{
+.thankCont {
   display: flex;
   text-align: center;
   flex-direction: column;
   gap: 15px;
   align-items: center;
-  /* height: 100vh; */
   justify-content: center;
+}
+
+/* for mobile view */
+
+@media (max-width: 600px) {
+  header {
+    display: none;
+  }
+  .boxWidth {
+    width: 100%;
+    padding: 0 20px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .banner {
+    padding: 30px 0;
+  }
+  .bannerBtnLeft {
+    left: 30px;
+  }
+  .bannerBtnRight {
+    right: 30px;
+  }
+  .recommMoviesCont,
+  .recommMoviesContEvent .eventMoviesList {
+    grid-auto-columns: calc((100% / 1.84) - 24px);
+    gap: 15px;
+    overflow: scroll;
+  }
+  .sliderBtn,
+  .sliderBtn1 {
+    display: none;
+  }
+  .rating {
+    gap: 10px;
+  }
+  .rating p {
+    font-size: 12px !important;
+  }
+  .advertise img {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  .recommSection {
+    padding-bottom: 0;
+  }
+  p {
+    font-size: 15px;
+  }
+  .premierSect,
+  .otherMovies1 {
+    padding: 30px 0;
+  }
+  .otherMovies2 {
+    padding-bottom: 30px;
+  }
+  .movieTitle {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .recommMoviesCont::-webkit-scrollbar,
+  .eventMoviesList::-webkit-scrollbar,
+  .recommMoviesCont2::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  .footerUSP .boxWidth{
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .footerUSP{
+    padding: 30px 20px;
+  }
+  .footerText{
+    padding: 30px 0;
+  }
+  .aboutUS{
+    padding: 30px 20px !important;
+  }
+  h3{
+    font-size: 20px;
+  }
+  .bannerMovieImage{
+    flex-direction: column;
+    padding: 40px 20px;
+    align-items: flex-start;
+  }
+  .bannerMovies{
+    background-image: linear-gradient(90deg, var(--lightDark), var(--lightDark)) !important;
+  }
+  .bannerMovies h2{
+    font-size: 20px;
+  }
+  .LangButtonBox{
+    padding-bottom: 20px;
+  }
+  .bookMovieName{
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .booking .bookFirstRow{
+    padding: 30px 0;
+  }
+  .bookPlace{
+    padding: 30px 0;
+  }
+  .bookCinemaCont{
+    padding: 20px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .boxWidth ul{
+    flex-wrap: wrap;
+  }
+  .bookCinemaName p{
+    font-size: 14px;
+  }
+  .bookCinemaTime ul li{
+    padding: 0 15px;
+    font-size: 13px;
+  }
+  .bookSecRow .boxWidth{
+    flex-direction: column;
+    jus
+  }
 }
