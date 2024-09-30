@@ -1114,6 +1114,16 @@ html {
     grid-template-columns: repeat(10, 22px);
   }
   .gridItem{
-    font-size: px;
+    font-size: 9px;
+  }
+  .ticketFirstRow .boxWidth{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .ticketBookingCont button{
+    width: 250px;
+  }
+  .checkoutCont{
+    width: 100%;
   }
 }
