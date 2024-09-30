@@ -1054,6 +1054,10 @@ html {
   }
   .LangButtonBox{
     padding-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  h4{
+    font-size: 16px;
   }
   .bookMovieName{
     font-size: 25px;
@@ -1072,16 +1076,44 @@ html {
   }
   .boxWidth ul{
     flex-wrap: wrap;
+    gap: 10px;
   }
   .bookCinemaName p{
-    font-size: 14px;
+    font-size: 13px;
   }
   .bookCinemaTime ul li{
     padding: 0 15px;
-    font-size: 13px;
+    font-size: 12px;
   }
   .bookSecRow .boxWidth{
     flex-direction: column;
-    
+    align-items: flex-start;
+    padding: 20px;
+    gap: 25px;
+  }
+  .inputDim{
+    padding: 10px;
+    border-top: 1px solid var(--offwhite4);
+  }
+  .ticketBox{
+    width: 300px;
+  }
+  .ticketCont{
+    width: 300px;
+  }
+  .buttonTicket{
+    flex-wrap: wrap;
+  }
+  .selectSeatBtn{
+    width: 250px;
+  }
+  .gridItem{
+    height: 22px;
+  }
+  .gridContainer{
+    grid-template-columns: repeat(10, 22px);
+  }
+  .gridItem{
+    font-size: px;
   }
 }
