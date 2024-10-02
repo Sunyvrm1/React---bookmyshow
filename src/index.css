@@ -957,23 +957,16 @@ html {
   align-items: center;
   justify-content: center;
 }
-.goToBack{cursor: pointer;}
+.goToBack {
+  cursor: pointer;
+}
 
 /* for mobile view */
 
 @media (max-width: 600px) {
-  .header2ndRow .boxWidth{
-    flex-direction: column;
-    gap: 15px;
-    padding: 10px 20px;
-    align-items: flex-start;
-  }
-  .searchBox, .btnLocation{
+  .searchBox,
+  .btnLocation {
     display: none;
-  }
-  .boxWidth {
-    width: 100%;
-    padding: 0 20px;
   }
   h2 {
     font-size: 20px;
@@ -992,16 +985,6 @@ html {
     grid-auto-columns: calc((100% / 1.84) - 24px);
     gap: 15px;
     overflow: scroll;
-  }
-  .sliderBtn,
-  .sliderBtn1 {
-    display: none;
-  }
-  .rating {
-    gap: 10px;
-  }
-  .rating p {
-    font-size: 12px !important;
   }
   .advertise img {
     margin-top: 30px;
@@ -1032,108 +1015,161 @@ html {
     width: 0px;
     height: 0px;
   }
-  .footerUSP .boxWidth{
+  .footerUSP .boxWidth {
     grid-template-columns: 1fr;
     gap: 30px;
   }
-  .footerUSP{
+  .footerUSP {
     padding: 30px 20px;
   }
-  .footerText{
+  .footerText {
     padding: 30px 0;
   }
-  .aboutUS{
-    padding: 30px 20px !important;
-  }
-  h3{
+  h3 {
     font-size: 20px;
   }
-  .bannerMovieImage{
+  .bannerMovieImage {
     flex-direction: column;
     padding: 40px 20px;
     align-items: flex-start;
   }
-  .bannerMovies{
-    background-image: linear-gradient(90deg, var(--lightDark), var(--lightDark)) !important;
+  .bannerMovies {
+    background-image: linear-gradient(
+      90deg,
+      var(--lightDark),
+      var(--lightDark)
+    ) !important;
   }
-  .bannerMovies h2{
+  .bannerMovies h2 {
     font-size: 20px;
   }
-  .LangButtonBox{
+  .LangButtonBox {
     padding-bottom: 20px;
     flex-wrap: wrap;
   }
-  h4{
+  h4 {
     font-size: 16px;
   }
-  .bookMovieName{
+  .bookMovieName {
     font-size: 25px;
     margin-bottom: 15px;
   }
-  .booking .bookFirstRow{
+  .booking .bookFirstRow {
     padding: 30px 0;
   }
-  .bookPlace{
+  .bookPlace {
     padding: 30px 0;
   }
-  .bookCinemaCont{
-    padding: 20px;
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-  .boxWidth ul{
+  .boxWidth ul {
     flex-wrap: wrap;
     gap: 10px;
   }
-  .bookCinemaName p{
+  .bookCinemaName p {
     font-size: 13px;
   }
-  .bookCinemaTime ul li{
+  .bookCinemaTime ul li {
     padding: 0 15px;
     font-size: 12px;
   }
-  .bookSecRow .boxWidth{
+  .bookSecRow .boxWidth {
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
     gap: 25px;
   }
-  .inputDim{
+  .inputDim {
     padding: 10px;
     border-top: 1px solid var(--offwhite4);
   }
-  .ticketBox{
+  .ticketBox {
     width: 300px;
   }
-  .ticketCont{
+  .ticketCont {
     width: 300px;
   }
-  .buttonTicket{
+  .buttonTicket {
     flex-wrap: wrap;
   }
-  .selectSeatBtn{
+  .selectSeatBtn {
     width: 250px;
   }
-  .gridItem{
+  .gridItem {
     height: 22px;
   }
-  .gridContainer{
+  .gridContainer {
     grid-template-columns: repeat(10, 22px);
   }
-  .gridItem{
+  .gridItem {
     font-size: 9px;
   }
-  .ticketFirstRow .boxWidth{
+  .ticketFirstRow .boxWidth {
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
-  .ticketBookingCont button{
+  .ticketBookingCont button {
     width: 250px;
   }
-  .checkoutCont{
+  .checkoutCont {
     width: 100%;
     height: 100%;
     gap: 40px;
     justify-content: flex-start;
+  }
+  .bookCinemaName img{
+    width: 55%;
+  }
+}
+
+/* for tablet */
+
+@media (max-width: 1024px) {
+  .header2ndRow .boxWidth {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 20px;
+    align-items: flex-start;
+  }
+  .boxWidth {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .sliderBtn,
+  .sliderBtn1 {
+    display: none;
+  }
+  .rating {
+    gap: 10px;
+  }
+  .rating p {
+    font-size: 12px !important;
+  }
+  .bannerMovieImage {
+    padding: 40px 20px;
+  }
+  .bannerMovieImage img{
+    width: 250px;
+  }
+  .bannerMovies{
+    background-size: cover;
+  }
+    .aboutUS {
+    padding: 30px 20px !important;
+  }
+    .bookCinemaCont {
+    padding: 20px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .recommMoviesCont,
+  .recommMoviesContEvent .eventMoviesList {
+    grid-auto-columns: calc((100% / 2.83) - 24px);
+    gap: 15px;
+    overflow: scroll;
+  }
+  .bookCinemaName img{
+    width: 180px;
   }
 }
