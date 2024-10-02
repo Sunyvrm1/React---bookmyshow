@@ -120,6 +120,9 @@ export default function Ticket() {
   const handleClickHome = () => {
     navigate("/")
   }
+  const goToBack = () => {
+    navigate("/booking");
+  };
 
   return (
     <>
@@ -127,7 +130,7 @@ export default function Ticket() {
       <div className="ticketFirstRow">
         <div className="boxWidth">
           <div className="ticketInfoCont">
-            <i className="fa-solid fa-angle-left"></i>
+            <i className="fa-solid fa-angle-left goToBack" onClick={goToBack}></i>
             <div className="ticketInfo">
               <p>{movie.movieTitle}</p>
               <p className="ticketVenue">

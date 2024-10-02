@@ -957,11 +957,18 @@ html {
   align-items: center;
   justify-content: center;
 }
+.goToBack{cursor: pointer;}
 
 /* for mobile view */
 
 @media (max-width: 600px) {
-  header {
+  .header2ndRow .boxWidth{
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 20px;
+    align-items: flex-start;
+  }
+  .searchBox, .btnLocation{
     display: none;
   }
   .boxWidth {

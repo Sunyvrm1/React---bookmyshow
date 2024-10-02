@@ -124,11 +124,11 @@ export default function APISlider() {
         <div className="boxWidth ">
           <div className="recommTitle">
             <h2>Recommended Movies</h2>
-            <p>
+            {/* <p>
               <a href="#">
                 See All <i className="fa-solid fa-angle-right"></i>
               </a>
-            </p>
+            </p> */}
           </div>
           <div
             className="recommMoviesCont recommMoviesCont1"
